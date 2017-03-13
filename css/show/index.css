@@ -1,0 +1,329 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-04 11:28:04
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-07 16:54:42
+*/
+.swiper-container {
+    width: 100%;
+    min-width:1200px;
+}  
+.swiper-pagination span{
+    background-color:#bc3627;
+}
+.swiper-button-prev,.swiper-button-next{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    border:1px solid white;
+}
+.swiper-button-prev{
+    background-image:url(../../image/icon/left.png);
+    background-size:30px 30px;
+}
+.swiper-button-next{
+    background-image:url(../../image/icon/right.png);
+    background-size:30px 30px;
+}
+.content{
+    width:1200px;
+    margin:0 auto;
+}
+.content .tips{
+    height:38px;
+    line-height:38px;
+    font-size:14px;
+    margin-bottom:26px;
+}
+.content .tips .icon{
+    float:left;
+    width:70px;
+    height:38px;
+    background:url(../../image/icon/loader.png) no-repeat center center;
+    background-size:20px 20px;   
+}
+.content .tips .words{
+    color:#454545;
+    float:left;
+}
+.content .tips .time{
+    color:#ababab;
+    float:right;
+    padding-right:12px;
+}
+.content .smallTab{
+    width:1200px;
+    height:481px;
+}
+.content .smallTab .left{
+    position:relative;
+    float:left;
+    width:980px;
+    height:481px;
+    overflow:hidden;
+}
+.content .smallTab .left img{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+}
+.content .smallTab .left .first{
+    display:block;   
+}
+.content .smallTab .right{
+    float:left;
+    height:481px;
+}
+.content .smallTab .right li{
+    height:119px;    
+    width:216px;
+    border-top:1px solid #c9c9c9;
+    font-size:18px;
+    color:#454545;
+    text-align: center;
+    height:119px;
+    line-height: 119px;
+    border-left:1px solid #c9c9c9;
+    border-right:1px solid #c9c9c9;
+    cursor:pointer;
+}
+.content .smallTab .right .forth{
+    border-bottom:1px solid #c9c9c9;
+}
+.content .smallTab .right .choose{
+    position:relative;
+}
+.content .smallTab .right .choose div{
+    position:absolute;
+    left:0;
+    top:0;
+    height:119px;    
+    width:216px;
+    z-index:2;
+    font-size:18px;
+}
+.content .smallTab .right .choose img{
+    position:absolute;
+    left:-16px;
+    top:0;
+    width:233px;
+    display:none;
+}
+.content .smallTab .right .first img{
+    display:block;
+}
+.content .smallTab .right .first div{
+    color:white;
+}
+.foodPro img{
+    width:100%;
+}
+.foodPro{
+    width:1200px;
+    margin:0 auto;
+    padding-top:70px;
+}
+.foodPro .top{
+    font-size:36px;
+    height:48px;
+    line-height:48px;
+    color:#000;
+    width:195px;
+    text-indent:38px;
+    background:url(../../image/icon/healthPro.png) no-repeat left center;
+    background-size:26px 28px;
+    margin:0 auto;
+}
+.foodPro .topSec{
+    background-image:url(../../image/icon/healthProSec.png);
+}
+.foodPro .topThird{
+    background-image:url(../../image/icon/comment.png);    
+}
+.foodPro p{
+    font-size:21px;
+    color:#c1c1c1;
+    margin-bottom:55px;
+    text-align: center;
+}
+.foodProList{
+    padding-top:24px;
+}
+.foodProList span{
+    float:left;
+    line-height:42px;
+    height:42px;
+}
+.foodProList .last{
+    float:right;
+}
+.foodProList .first{
+    width:66px;
+    background:url(../../image/icon/healthPro.png) no-repeat center center;
+}
+.foodProList .firstSec{
+    background-image:url(../../image/icon/healthProSec.png);
+}
+.foodProList .second{
+    font-size:24px;
+    color:#80c269;
+}
+.foodProList .secondSec{
+    color:#00b7ee;
+}
+.foodProList .third{
+    font-size:15px;
+    color:#929393;
+    text-indent:15px;
+}
+.foodProList .last{
+    font-size:15px;
+    color:#929393;
+    width:78px;
+    background:url(../../image/icon/rightCol.png) no-repeat right center;
+    background-size: 12px 12px;
+}
+.foodProList li{
+    position:relative;
+    width:298px;
+    height:370px;
+}
+.foodProList li img{
+    width:auto;
+    margin:0 auto;  
+    padding-top:40px;
+}
+.foodProList li .bottom{
+    position:absolute;
+    width:100%;
+    height:110px;
+    left:0;
+    bottom:0;
+}
+.foodProList li .bottom .words{
+    font-size:16px;
+    color:#454545;
+    line-height:38px;
+}
+.foodProList ul{
+    border-top:1px solid #80c269;
+    border-left:1px solid #d5d5d5;
+    width:1197px;
+    margin-left:1px;
+}
+.foodProList .ulSec{
+    border-top:1px solid #00b7ee;
+}
+.foodProList li .bottom p{
+    text-indent:28px;
+}
+.foodProList li .bottom .price_true{
+    line-height:34px;
+    font-size:18px;
+    color:#b72211;
+}
+.foodProList li .bottom .price_origin{
+    line-height:20px;
+    font-size:14px;
+    color:#999;
+    text-decoration:line-through;
+}
+.foodProList li .bottom .icon{
+    position:absolute;
+    width:33px;
+    height:35px;
+    right:19px;
+    bottom:23px;
+    background:url(../../image/icon/goCart.png) no-repeat center center;
+    background-size:28px 28px;
+    cursor:pointer;
+}
+.foodProList li .bottom .activeIcon{
+    background-image:url(../../image/icon/goInCart.png);
+}
+.foodProList li .inner{
+    box-sizing:border-box;
+    width:100%;
+    height:100%;
+    border:1px solid #fff;
+}
+.foodProList li .activeInner{
+    border:1px solid #ba2a1a;
+}
+.foodProList li{
+    border-right:1px solid #d5d5d5;
+    border-bottom:1px solid #d5d5d5;
+    float:left;
+}
+.foodProList li{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.bottomTab{
+    width:1200px;
+    height:284px;
+    padding-top:50px;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+    margin-bottom:140px;
+}
+.bottomTab ul{
+    position:absolute;
+    width:1600px;
+    left:0;
+    top:50px;
+}
+.bottomTab li{
+    float:left;
+    width:400px;
+    box-sizing:border-box;
+    height:284px;
+}
+.bottomTab li img{
+    width:148px;
+    height:auto;
+    margin:0 auto;
+}
+.bottomTab li p{
+    width:250px;
+    margin:0 auto;
+}
+.bottomTab li .first{
+    font-size:36px;
+    line-height:36px;
+    color:#454545;
+    margin-top:45px;
+}
+.bottomTab li .second{
+    font-size:14px;
+    color:#454545;
+    line-height:23px;
+}
+.bottomTab li .third{
+    text-align:center;
+    font-size:14px;
+    color:#454545;
+    margin-top:18px;
+}
+.bottomTab .left,.bottomTab .right{
+    position:absolute;
+    width:26px;
+    height:26px;
+    top:82px;
+    background-size:13px 26px;
+    cursor:pointer;
+}
+.bottomTab .left{
+    left:13px;
+    background:url(../../image/icon/bottomTabLeft.png) no-repeat center center;
+}
+.bottomTab .right{
+    right:13px;
+    background:url(../../image/icon/bottomTabRight.png) no-repeat center center;
+}
+

@@ -1,0 +1,224 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-04 13:55:48
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-07 15:13:13
+*/
+/*textarea,select,input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none; appearance: none;}*/
+*{
+    font-size:12px; 
+    color:#636363;
+}
+.commHeader{
+    width:1200px;
+    margin: 0 auto;
+}
+.commHeader .top{
+    margin-bottom:25px;
+}
+.commHeader .middle img{
+    float:left;
+    width:266px;
+    height:75px;
+}
+.commHeader .search{
+    float:left;
+    margin-top:10px;
+    margin-left:70px;
+}
+.commHeader .search .wrap{
+    width:544px;
+    height:44px;
+    border:1px solid #b12819;
+    border-radius:4px;
+    background:url(../../image/icon/search.png) no-repeat 14px center;
+    background-size:18px 18px;
+}
+.commHeader .search .hot{
+    font-size:12px;
+    color:#636363;
+    padding-left:10px;
+}
+.commHeader .search .hot span{
+    margin-right:15px;
+    line-height:24px;
+}
+.commHeader .search .words{
+    margin-top:2px;
+    margin-left:40px;
+    height:40px;
+    width:350px;
+    border:none;
+    float:left;
+}
+.commHeader .search .button{
+    height:44px;
+    width:120px;
+    border:none;
+    background-color:#b12819;
+    float:right;
+    font-size:16px;
+    color:white;
+    border-radius:4px;
+    cursor:pointer;
+}
+.commHeader .otherLink{
+    float:left;
+    margin-top:12px;
+    margin-left:58px;
+}
+.commHeader .otherLink .box{
+    float:left;
+    margin-right:16px;
+}
+.commHeader .otherLink .box div{
+    width:45px;
+    height:45px;
+    border:1px solid #b12819;
+    border-radius:4px;  
+    background:url(../../image/icon/cart.png) no-repeat center center;
+    background-size:24px 24px;
+    cursor:pointer;
+}
+.commHeader .otherLink .second div{
+    background:url(../../image/icon/star.png) no-repeat center center;
+    background-size:24px 24px;
+}
+.commHeader .otherLink .third div{
+    background:url(../../image/icon/wish.png) no-repeat center center;
+    background-size:24px 21px;
+}
+.commHeader .otherLink .forth div{
+    background:url(../../image/icon/register.png) no-repeat center center;
+    background-size:24px 18px;
+}
+.commHeader .otherLink .box  p{
+    text-align: center;
+    line-height:27px;
+}
+.commHeader .otherLink .collection{
+    position:relative;
+}
+.commHeader .otherLink .collection span{
+    position:absolute;
+    top:-8px;
+    right:-8px;
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    background-color:#b61e0d;
+    text-align: center;
+    font-size:12px;
+    color:white;
+}
+.commHeader .top .first{
+    font-size:12px;
+    color:#454545;
+    text-indent:22px;
+    width:170px;
+    float:left;
+}
+.commHeader .top .second{
+    float:right;
+    width:150px;
+    margin-right:25px;
+}
+.commHeader .top .second .words,.commHeader .top .second .num{
+    font-size:12px;
+    color:#454545;
+}
+.commHeader .top .second .num{
+    color:#b61e0d;
+}
+.commHeader .top .third{
+    width:55px;
+    height:16px;
+    float:right;
+    background:url(../../image/icon/down.png) no-repeat right;
+    background-size:12px 12px;
+    margin-right:20px;
+    position:relative;
+    cursor:pointer;
+}
+.commHeader .top .third ul{
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+    z-index:2;
+    cursor:pointer;
+}
+.commHeader .top .third .words{
+    font-size:12px;
+    color:#454545;    
+}
+.commHeader .top .forth {
+    width:40px;
+    float:right;
+    background:url(../../image/icon/question.png) no-repeat right;
+    background-size:12px 12px;
+    margin-right:36px;
+    cursor:pointer; 
+}
+.commHeader .nav{
+    width:100%;
+    margin-top:10px;
+}
+.commHeader .nav ul{
+    margin:0 auto;
+    width:853px;
+}
+.commHeader .nav ul li{
+    width:142px;
+    float:left;
+    text-align: center;
+    height:55px;
+    line-height:55px;
+    cursor:pointer;
+}
+.commHeader .nav ul li a{
+    font-size:18px;
+    color:#454545;
+}
+.commHeader .nav .first{
+    color:#ba2a1a;
+}
+.fix{
+    width:60px;
+    height:308px;
+    position:fixed;
+    top:50%;
+    right:0;
+    margin-top:-154px;
+}
+.fix div{
+    width:60px;
+    height:60px;
+    margin-bottom:2px;
+    background:url(../../image/icon/fixService.png) no-repeat center 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.fix .sec{
+    background:url(../../image/icon/fixDown.png) no-repeat center 7px;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+.fix .third{
+    background:url(../../image/icon/fixCart.png) no-repeat center 9px;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+.fix .forth{
+    background:url(../../image/icon/fixWish.png) no-repeat center 5px;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+.fix .fifth{
+    background:url(../../image/icon/fixTop.png) no-repeat center 8px; 
+    background-color: rgba(0, 0, 0, 0.5);   
+}
+.fix div p{
+    height:24px;
+    line-height:24px;
+    padding-top:36px;
+    text-align: center;
+    color:white;
+}

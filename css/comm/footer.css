@@ -1,0 +1,164 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-07 09:48:39
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-07 14:45:20
+*/
+.footer{
+    width:100%;
+    margin-bottom:25px;
+    background-image:url(../../image/icon/footBackground.png);
+    background-size:100% 100%;
+}
+.footer .top{
+    width:1200px;
+    margin:0 auto;
+}
+.footer .top ul{
+    width:840px;
+    height:124px;
+    margin:0 auto;
+}
+.footer .top li{
+    width:140px;
+    margin-right:35px;
+    height:124px;
+    float:left;
+}
+.footer .top .last{
+    margin-right:0;
+}
+.footer .top li span{
+    float:left;
+}
+.footer .top li .icon{
+    width:62px;
+    height:124px;
+    background:url(../../image/icon/quality.png) no-repeat center center;
+}
+.footer .top li .words{
+    width:78px;
+    line-height:124px;
+    font-size:16px;
+    color:#454545;
+    text-align: center;
+}
+.footer .top .first .icon{
+    background-image: url(../../image/icon/clean.png);
+}
+.footer .top .sec .icon{
+    background-image: url(../../image/icon/belive.png);
+}
+.footer .top .third .icon{
+    background-image: url(../../image/icon/profession.png);
+}
+.footer .top .forth .icon{
+    background-image: url(../../image/icon/service.png);
+}
+.footer .middle{
+    border-top:1px solid #dbdbdb;
+    height:200px;
+    width:1200px;
+    margin:0 auto;
+}
+.footer .middle div{
+    float:left;
+    height:200px;
+}
+.footer .middle .left{
+    width:230px;
+    background:url(../../image/icon/footCodeLeft.png) no-repeat 40px 50px;
+    background-size:96px 128px;
+}
+.footer .middle .leftMid{
+    width:558px;
+    height:184px;
+    margin-top:16px;
+    border-right:1px solid #dbdbdb;
+}
+.footer .middle .leftMid ul{
+    width:139px;
+    float:left;
+}
+.footer .middle .leftMid ul li{
+    font-size:14px;
+    color:#454545;
+    line-height:32px;
+}
+.footer .middle .leftMid ul .fir a{
+    font-size:16px;
+    color:#000;
+    line-height:50px;
+}
+.footer .rightMid{
+    width:220px;
+}
+.footer .rightMid div{
+    width:128px;
+    height:35px;
+    padding-top:35px;
+    padding-bottom:42px; 
+    margin-left:35px;
+    float:none;
+}
+
+.footer .rightMid div .icon{
+    float:left;
+    width:35px;
+    height:35px;
+    background:url(../../image/icon/girl.png) no-repeat center center;
+    margin-right:8px;
+}
+.footer .rightMid div .words{
+    float:left;
+    width:85px;
+    height:35px;
+    background-color:#ba2a1a;
+    line-height:35px;
+    color:white;
+    text-align: center;
+    border-radius:5px;
+}
+.footer .rightMid p{
+    text-indent:42px;
+    color:#000;
+}
+.footer .rightMid .words{
+    font-size:14px;
+    line-height:25px;
+}
+.footer .rightMid .phone{
+    font-size:20px;
+    color:#ba2a1a;
+    font-weight:bold;
+}
+.footer .rightMid .time{
+    font-size:14px;
+    color:#000;
+}
+.footer .right{
+    width:188px;
+    height:200px;
+    background-color:black;
+    background:url(../../image/icon/footerRight.png) 22px 47px no-repeat;
+}
+.footer .bottomFir,.footer .bottomSec{
+    width:1200px;
+    margin:0 auto;
+}
+.footer .bottomFir{
+    font-size:12px;
+    color:#454545;
+    text-align: center;
+    height:28px;
+    line-height:28px;
+    margin-top:40px;
+}
+.footer .bottomSec{
+    font-size:12px;
+    color:#454545;
+    text-align: center;
+    height:34px;
+    line-height:34px;
+    background:url(../../image/icon/plice.png) 486px center no-repeat;
+}
