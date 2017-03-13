@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-04 13:55:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-07 15:13:13
+* @Last Modified time: 2017-03-13 17:19:09
 */
 /*textarea,select,input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none; appearance: none;}*/
 *{
@@ -168,6 +168,7 @@
     margin:0 auto;
     width:853px;
 }
+
 .commHeader .nav ul li{
     width:142px;
     float:left;
@@ -175,6 +176,9 @@
     height:55px;
     line-height:55px;
     cursor:pointer;
+}
+.fixedTop .nav ul li{
+    width:121px;
 }
 .commHeader .nav ul li a{
     font-size:18px;
@@ -221,4 +225,75 @@
     padding-top:36px;
     text-align: center;
     color:white;
+}
+.fixedTop{
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:10;
+    background-color: white;
+    width:100%;
+    height:68px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
+    display:none;
+}
+.fixedTop .inner{
+    width:1200px;
+    height:68px;
+    background-color: white;
+    margin:0 auto;
+}
+.fixedTop .inner img{
+    float:left;
+    width:150px;
+    height:34px;
+    margin-top:17px;
+    margin-left:28px;
+}
+.fixedTop .inner .nav ul li{
+    height:68px;
+    line-height:68px;
+}
+.fixedTop .inner .person,.fixedTop .inner .cart{
+    float:right;
+    width:54px;
+    height:68px;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.fixedTop .inner .cart{
+    margin-right:30px;
+}
+.fixedTop .inner .person{
+    background:url(../../image/icon/person.png) center center no-repeat;
+}
+.fixedTop .inner .cart{
+    background:url(../../image/icon/cartTop.png) center center no-repeat;
+    position:relative;
+}
+.fixedTop .inner .nav ul{
+    margin:0;
+    width:750px;
+    float:left;
+    margin-left:38px;
+}
+.fixedTop .inner .cart span{
+    position:absolute;
+    right:7px;
+    top:17px;
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background-color: #b61e0d;
+    font-size:12px;
+    line-height: 14px;
+    text-align: center;
+    color:white;
+
+}
+.fixedTop .inner .nav {
+    margin:0;
 }

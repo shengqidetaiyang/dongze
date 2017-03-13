@@ -2,8 +2,14 @@
 * @Author: Marte
 * @Date:   2017-03-07 15:28:53
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-07 16:53:53
+* @Last Modified time: 2017-03-13 16:03:09
 */
+.commHeader .nav ul li .active{
+    color:#bc3627;
+}
+.content .classfiy ul .active{
+    color:#bc3627;    
+}
 .content{
     width:1200px;
     margin:0 auto;
@@ -66,6 +72,10 @@
     font-size:14px;
     color:#454545;
     cursor: pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 }
 .content .classfiy ul .first{
     width:112px;
@@ -91,6 +101,7 @@
     border:1px solid #c1c1c1;
     position:relative;
     float:left;
+    cursor:pointer;
 }
 .content .lists .proList img{
     width:100%;
