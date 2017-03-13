@@ -1,0 +1,17 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-13 18:32:16
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-13 18:45:46
+*/
+.commHeader{
+    height:68px;
+}
+.commHeader>.fixedTop{
+    display: block;
+    position: static;
+    border:none;
+}
+.conter{
+    height:500px;
+}
