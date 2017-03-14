@@ -17,3 +17,12 @@ address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
 .right {
     float: right;
 }
+.noneSelect{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.hand{
+    cursor:pointer;
+}

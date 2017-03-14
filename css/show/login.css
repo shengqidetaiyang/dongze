@@ -1,0 +1,26 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-14 16:47:55
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-14 17:10:25
+*/
+.selectWrap{
+    float:left;
+    width:18px;
+    height:18px;
+    border:1px solid #ebebeb;
+    margin-top:9px;
+    cursor:pointer;
+}
+.selectWrapActive{
+    background:url(../../image/icon/select.png) center center no-repeat;
+    background-size:18px 18px;
+}
+.phone{
+    background:url(../../image/icon/username.png) 268px center no-repeat;
+    background-size:18px 18px;   
+}
+.password{
+    background:url(../../image/icon/password.png) 268px center no-repeat;
+    background-size:22px 22px;      
+}

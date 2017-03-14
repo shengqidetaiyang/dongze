@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-04 13:55:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-13 17:19:09
+* @Last Modified time: 2017-03-14 16:32:42
 */
 /*textarea,select,input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none; appearance: none;}*/
 *{
@@ -242,6 +242,7 @@
     height:68px;
     background-color: white;
     margin:0 auto;
+    position:relative;
 }
 .fixedTop .inner img{
     float:left;
@@ -269,6 +270,7 @@
 }
 .fixedTop .inner .person{
     background:url(../../image/icon/person.png) center center no-repeat;
+    display:none;
 }
 .fixedTop .inner .cart{
     background:url(../../image/icon/cartTop.png) center center no-repeat;
@@ -296,4 +298,43 @@
 }
 .fixedTop .inner .nav {
     margin:0;
+}
+.personalBox{
+    position:absolute;
+    width:140px;
+    right:84px;
+    top:0px;
+    background-color: white;
+}
+.personalBox .list{
+    display:none;
+}
+.personalBox li a{
+    display:block;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    font-size:14px;
+    color:#949494;
+}
+.personalBox li a:hover{
+    background-color: #a60400;
+    color:white;
+}
+.personalBox .first a{
+    height:68px;
+    line-height: 68px;
+    color:#454545;
+    font-size:16px;
+    text-align: left;
+    background:url(../../image/icon/up.png) 110px center no-repeat;
+    background-size:18px 18px;
+}
+.personalBox .first a:hover{
+    background-color: white;
+    color:#454545;
+}
+.personalBox .close a{
+    background:url(../../image/icon/down.png) 110px center no-repeat;  
+    background-size:18px 18px; 
 }
