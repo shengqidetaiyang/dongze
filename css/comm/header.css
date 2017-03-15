@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-04 13:55:48
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-14 16:32:42
+* @Last Modified time: 2017-03-15 10:50:29
 */
 /*textarea,select,input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none; appearance: none;}*/
 *{
@@ -121,7 +121,7 @@
 .commHeader .top .second{
     float:right;
     width:150px;
-    margin-right:25px;
+    margin-right:5px;
 }
 .commHeader .top .second .words,.commHeader .top .second .num{
     font-size:12px;
@@ -131,7 +131,7 @@
     color:#b61e0d;
 }
 .commHeader .top .third{
-    width:55px;
+    width:70px;
     height:16px;
     float:right;
     background:url(../../image/icon/down.png) no-repeat right;
@@ -139,6 +139,7 @@
     margin-right:20px;
     position:relative;
     cursor:pointer;
+    text-align: center;
 }
 .commHeader .top .third ul{
     position:absolute;
@@ -148,7 +149,12 @@
     z-index:2;
     cursor:pointer;
 }
+.commHeader .top .third ul li:hover{
+    color:white;
+    background-color:#b12819;
+}
 .commHeader .top .third .words{
+    width:100%;
     font-size:12px;
     color:#454545;    
 }
@@ -176,6 +182,12 @@
     height:55px;
     line-height:55px;
     cursor:pointer;
+}
+.commHeader .nav ul li:hover{
+    background-color:#b12819;
+}
+.commHeader .nav ul li:hover a{
+    color:white;
 }
 .fixedTop .nav ul li{
     width:121px;

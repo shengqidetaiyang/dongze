@@ -1,0 +1,36 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-15 11:00:37
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-15 11:18:58
+*/
+.commHeader .nav ul .forth a{
+    color:#bc3627;
+}
+.content{
+    width:1200px;
+    margin:0 auto;
+    padding-top:45px;
+    padding-bottom:215px;
+}
+.content .topic{
+    font-size:18px;
+    color:#060606;
+    text-align: center;
+    line-height:36px;
+}
+.content .time{
+    font-size:14px;
+    color:#454545;
+    text-align: center;
+    line-height:36px;
+    margin-bottom:10px;
+}
+.content .words{
+    font-size:14px;
+    color:#666;
+    line-height:26px;
+    margin-bottom:10px;   
+    text-indent:20px;
+    margin-bottom:26px;
+}
