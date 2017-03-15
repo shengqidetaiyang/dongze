@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-13 18:32:16
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-14 17:00:10
+* @Last Modified time: 2017-03-15 16:22:26
 */
 .commHeader{
     height:68px;
@@ -90,8 +90,8 @@
 .login #select{
     margin:0;
     padding:0;
-    width:0;
-    height:0;
+    width:20px;
+    height:20px;
     border-width:0;
 }
 .login .tips{
