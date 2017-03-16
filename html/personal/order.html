@@ -5,7 +5,8 @@
         <link rel="stylesheet" type="text/css" href="../../css/comm/header.css" />
         <link rel="stylesheet" type="text/css" href="../../css/comm/footer.css" />
         <link rel="stylesheet" type="text/css" href="../../css/comm/base.css" />
-        <link rel="stylesheet" type="text/css" href="../../css/show/register.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/personal/personInfo.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/personal/order.css" />
     <body>
         <div class = "commHeader">
             <div class = "fixedTop">
@@ -37,19 +38,26 @@
                 </div>
             </div>
         </div>  
-        <div class="container">
-            <div class="reset loginBox">
-               <img src="../../image/fixedLogo.png" alt="" />
-                <p class = "topic">找回密码</p> 
-                <form action="" method="get">
-                  <p><input type="text" name="phone" / class="phone" placeholder = "请输入手机号"></p>
-                  <p> 
-                        <input type="text" name="code" / class="code" placeholder = "请输入验证码">
-                        <span class = "getCode noneSelect">获取验证码</span>
-                  </p>
-                  <p> <input type="password" name="password" / class="password" placeholder = "请输入密码"></p>
-                  <input type="submit" value="确定" / class = "button">
-                </form>
+        <div class="contain clearfix">
+            <div class="menu left">
+                <div class="top">
+                        <img alt="" src="../../image/icon/personal.png"  class="person" />
+                        <a href="javascript:void(0);" class="camera"><img src="../../image/icon/camera.png" alt="" / ></a>
+                    <p>123q453333</p>
+                </div>
+                <ul>
+                    <li><a href="./personInfo.html">个人信息</a></li>
+                    <li class = "first"><a href="./order.html">我的订单</a></li>
+                    <li><a href="javascript:void(0);">地址管理</a></li>
+                    <li><a href="javascript:void(0);">我的购物车</a></li>
+                    <li><a href="javascript:void(0);">我的收藏</a></li>
+                    <li><a href="javascript:void(0);">心愿单</a></li>
+                    <li><a href="javascript:void(0);">商品评价</a></li>
+                    <li><a href="javascript:void(0);">我的积分</a></li>
+                    <li><a href="javascript:void(0);">邀请有奖</a></li>
+                    <li><a href="javascript:void(0);">账号安全</a></li>
+                    <li><a href="javascript:void(0);">退出</a></li>
+                </ul>
             </div>
         </div>
         <div class="footer">
@@ -125,6 +133,6 @@
         </div>  
     <script type="text/javascript" src="../../js/comm/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="../../js/comm/commB.js"></script>
-    <script type="text/javascript" src="../../js/show/reset.js"></script> 
+    <script type="text/javascript" src="../../js/personal/order.js"></script> 
     </body>
 </html>

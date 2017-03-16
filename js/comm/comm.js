@@ -2,9 +2,9 @@
 * @Author: Marte
 * @Date:   2017-03-07 18:10:19
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-15 10:35:36
+* @Last Modified time: 2017-03-16 14:59:05
 */
-
+//手机端和移动端切换
 $(document).ready(function(){
   $(".commHeader .top .third").bind('click',  function(event) {
       /* Act on the event */
@@ -20,19 +20,23 @@ $(document).ready(function(){
       e.stopPropagation();
       $(this).parent().find("span").text(target);
   });
+
   $(".search .button").bind("click",function(event){
       var e = event || window.event;
       e.preventDefault();
   })   
+
     $(".personalBox .first a").on("click",function(){
         $(this).parent().toggleClass('close').siblings('.list').toggle(400);
     })
+
     $(".fix .fifth").on("click",function(){
         var speed=600;//滑动的速度
         $('body,html').animate({ scrollTop: 0 }, speed);
         $(".fixedTop").slideUp();   
         return false;
     })
+    
   var EventUtil={
       getEvent:function(event){return event?event:window.event;},
           //滚轮事件对象的 wheelDelta/FF DOMMouseScroll
