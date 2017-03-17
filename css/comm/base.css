@@ -26,3 +26,9 @@ address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
 .hand{
     cursor:pointer;
 }
+.show{
+    display:block;
+}
+.hide{
+    display:none;
+}

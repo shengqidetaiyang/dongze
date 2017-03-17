@@ -1,0 +1,210 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-16 18:34:14
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-17 18:29:31
+*/
+
+.order{
+    width:954px;
+    margin-left:16px;
+}
+.order .topic{
+    font-size:16px;
+    height:42px;
+    line-height:42px;
+    margin-bottom:6px;
+}
+.order .top{
+    width:952px;
+    border:1px solid #e3e3e3;
+    height:40px;
+    margin-bottom:22px;
+}
+.order .top>span{
+    float:left;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+}
+.order  .first{
+    width:308px;
+}
+.order  .second{
+    width:162px;
+}
+.order  .third{
+    width:128px;
+}
+.order  .forth{
+    width:45px;
+}
+.order  .fifth{
+    width:116px;
+}
+.order  .sixth{
+    width:192px;
+}
+.orderBox{
+    border:1px solid #e3e3e3;
+    position:relative;
+}
+.orderBox li{
+    height:106px;
+    position:relative;
+}
+.orderBox li div{
+    float:left;
+    height:106px;
+}
+.orderList .title{
+    height:40px;
+    line-height:40px;
+    border:1px solid #e3e3e3;
+    border-bottom-width:0;
+    position: relative;
+}
+.orderList .title span{
+    color:#666;
+}
+.orderList .title img{
+    position:absolute;
+    right:96px;
+    top:11px;
+    width:17px;
+    height:17px;
+    cursor:pointer;
+}
+.orderList .title span{
+    float:left;
+    height:40px;
+}
+.orderList .title .time{
+    padding-left:10px;
+    margin-right: 25px;
+}
+.orderBox li div{
+    border-bottom:1px solid #e3e3e3;
+}
+.orderBox li .sixth{
+    border-bottom:none;
+    position:static;
+}
+.orderBox li .fifth{
+    border-right:1px solid #e3e3e3;
+    color:#a60400;
+    font-weight:bold;
+}
+.orderList{
+    margin-bottom:25px;
+}
+.orderBox .first div,.orderBox .first p{
+    float:left;
+}
+.orderBox li>div {
+    position:relative;
+}
+.orderBox li .first div{
+    width:80px;
+    height:80px;
+    margin-top:12px;
+    margin-left:12px;
+    border:1px solid #c9c9c9;
+    position:relative;
+}
+.orderBox li .first div img{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+}
+.orderBox li .first p{
+    width:173px;
+    margin-left:8px;
+    padding-top:30px;
+    line-height:24px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.orderBox li .second p{
+    line-height:24px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    height:48px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.orderBox li .third,.orderBox li .forth,.orderBox li .fifth{
+    text-align:center;
+    line-height:107px;
+}
+.chooseBox{
+    width:78px;
+    height:72px;
+    position:absolute;
+    right:55px;
+    border:none;
+    top:50%;
+    margin-top:-36px;
+}
+.chooseBox>span{
+    position:absolute;
+    left:0;
+    top:0;
+    width:78px;
+    height:24px;
+    text-align: center;
+    line-height:24px;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.chooseBox .up{
+    cursor:default;
+}
+.fail{
+    width:78px;
+    height:48px;
+    position:absolute;
+    right:55px;
+    border:none;
+    top:50%;
+    margin-top:-24px;
+}
+.chooseBox .middle{
+    top:24px;
+}
+.chooseBox .down{
+    top:48px;
+}
+.repay .up{
+    color:#a60400;
+}
+.repay .down{
+    border-radius: 3px;
+    background-color: #a60400;
+    color:white;
+}
+.finish .down{
+    border-radius: 3px;
+    background-color: #38b5e2;
+    color:white;   
+}
+.orderBox .sign .borderNone{
+    border-bottom:none;
+}

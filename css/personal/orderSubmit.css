@@ -1,0 +1,48 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-17 16:03:47
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-17 18:19:25
+*/
+.infor .first a{
+    color:#1c9eff;
+    margin-left:630px;
+}
+.orderBox li .fifth {
+    border-right:none;
+}
+.order .forth{
+    width:238px;
+}
+.forth .inner{
+    width:106px;
+    height:24px;
+    border:1px solid #c8cac9;
+    margin-left:66px;
+    margin-top:41px;
+}
+.forth .inner span{
+    float:left;
+    height:24px;
+    cursor:pointer;
+}
+.forth .inner .minus,.forth .inner .plus{
+    width:24px;
+    background-color:#eeeeee;
+}
+.forth .inner .num{
+    width:56px;
+    border-right:1px solid #c8cac9;
+    line-height:24px;
+    text-align: center;
+    color:#5b5b5b;
+}
+.forth .inner .minus{
+    border-right:1px solid #c8cac9;
+    background:url(../../image/icon/minus.png) center center no-repeat;
+    background-size:8px 8px;
+}
+.forth .inner .plus{
+    background:url(../../image/icon/plus.png) center center no-repeat;
+    background-size:12px 12px;    
+}

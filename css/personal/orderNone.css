@@ -1,0 +1,31 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-17 17:17:31
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-17 17:33:02
+*/
+.box{
+    width:875px;
+    height:446px;
+    border:1px solid #e3e3e3;
+    margin-left:15px;
+}
+.box img{
+    margin:0 auto;
+    width:33px;
+    height:42px;
+    margin-top:155px;
+    margin-bottom:18px;
+}
+.box .tips{
+    height:28px;
+    line-height:28px;
+    font-size:16px;
+    text-align: center;
+}
+.box .gopur, .box .gopur a{
+    height:25px;
+    line-height:25px;
+    color:#1bafe0;
+    text-align: center;
+}

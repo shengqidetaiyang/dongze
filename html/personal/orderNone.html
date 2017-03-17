@@ -6,6 +6,8 @@
         <link rel="stylesheet" type="text/css" href="../../css/comm/footer.css" />
         <link rel="stylesheet" type="text/css" href="../../css/comm/base.css" />
         <link rel="stylesheet" type="text/css" href="../../css/personal/personInfo.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/personal/order.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/personal/orderNone.css" />
     <body>
         <div class = "commHeader">
             <div class = "fixedTop">
@@ -45,8 +47,8 @@
                     <p>123q453333</p>
                 </div>
                 <ul>
-                    <li class = "first"><a href="./personInfo.html">个人信息</a></li>
-                    <li><a href="./order.html">我的订单</a></li>
+                    <li><a href="./personInfo.html">个人信息</a></li>
+                    <li class = "first"><a href="./order.html">我的订单</a></li>
                     <li><a href="javascript:void(0);">地址管理</a></li>
                     <li><a href="javascript:void(0);">我的购物车</a></li>
                     <li><a href="javascript:void(0);">我的收藏</a></li>
@@ -58,61 +60,10 @@
                     <li><a href="javascript:void(0);">退出</a></li>
                 </ul>
             </div>
-            <div class = "form left">
-                <p class = "topic">个人信息</p>
-                <form action="" method="get">
-                      <p>
-                          <span class = "word">账号</span>
-                          <span class="dot">：</span>
-                          <span>123456</span>
-                      </p>
-                      <p>
-                          <span class="word">昵称</span>
-                          <span class="dot">：</span>
-                          <input type="text" name="lname" / class = "nickName">
-                      </p>
-                      <p>
-                          <span class="word">性别</span>
-                          <span class="dot">：</span>
-                          <span class = "selectBox">
-                              <span class = "inner"></span>
-                              <input type="radio" name="male" / class = "select">
-                          </span>
-                          <span class = "male">男</span>
-                          <span class = "selectBox">
-                              <span class = "inner"></span>
-                              <input type="radio" name="female" / class = "select">
-                          </span>
-                          <span class = "female">女</span>
-                      </p>
-                      <p>
-                            <span class ="userType">用户类型： </span>
-                            <select class = "typeList">
-                              <option value ="volvo">腹透肾友</option>
-                              <option value ="saab">其它病症</option>
-                              <option value="opel">咨询客户</option>
-                              <option value="audi">检查</option>
-                            </select>
-                      </p>
-                      <p>
-                            <span class ="date">出生日期： </span>
-                            <input type="text" onclick="fPopCalendar(event,this,this)" readonly="readonly" class = "dataselect noneSelect" placeholder = "请点击选择日期">
-                      </p>
-                      <p class = "mailBox">
-                          <span class="word">邮箱</span>
-                          <span class="dot">：</span>
-                          <input type="text" name="fname" / class = "mail">
-                          <span class="tips">请输入正确的邮箱格式</span>
-                      </p>
-                      <p class = "noneSelect">
-                          <span class = "selectWrap">
-                              <span class = "inner"></span>
-                              <input type="radio" name="lname" / class = "select">
-                          </span>
-                          选中表示“愿意接受来自平台公共邮箱的咨询内容”
-                      </p>
-                      <input type="submit" value="保存" / class = "save">
-                </form>
+            <div class="left box">
+                <img src="../../image/icon/orderNone.png" alt="" />
+                <p class = "tips noneSelect">暂无任何订单</p>
+                <p class = "gopur noneSelect"><a href="javascript:void(0);">快戳这里购物</a></p>
             </div>
         </div>
         <div class="footer">
@@ -188,7 +139,6 @@
         </div>  
     <script type="text/javascript" src="../../js/comm/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="../../js/comm/commB.js"></script>
-    <script type="text/javascript" src="../../js/personal/personInfo.js"></script> 
-    <script type="text/javascript" src="../../js/comm/Calendar.js"></script>
+    <script type="text/javascript" src="../../js/personal/orderNone.js"></script> 
     </body>
 </html>
