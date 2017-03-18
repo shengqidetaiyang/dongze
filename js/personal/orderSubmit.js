@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-17 16:04:10
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-17 18:50:23
+* @Last Modified time: 2017-03-18 10:53:24
 */
 
 $(document).ready(function(){
@@ -40,5 +40,16 @@ $(document).ready(function(){
             total = parseInt(total)/100;
             $(this).siblings('.num').text(index);
             $(this).parent().parent().siblings('.fifth').text("￥" + total)
+        })
+        $(".selectBox").on("click",function(){
+            $(this).find(".inner").toggle();
+            if($(this).find("input").attr("checked")){
+                $(this).find("input").removeAttr("checked");
+                $(this).parent().find(".code").attr('readonly',"true");
+            }
+            else{
+                $(this).find("input").attr("checked",true);
+                $(this).parent().find(".code").removeAttr('readonly');
+            }
         })
 });

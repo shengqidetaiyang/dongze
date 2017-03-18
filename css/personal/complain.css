@@ -1,0 +1,163 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-18 15:38:09
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-18 18:38:33
+*/
+.order .topic span{
+    float:left;
+    height:42px;
+    line-height:42px;
+    font-size:16px;
+}
+.order .topic .icon{
+    width:21px;
+    background:url(../../image/icon/rightColB.png) center center no-repeat;
+    background-size:14px 14px;
+}
+form{
+    margin-top:28px;
+}
+form .reason{
+    height:40px;
+    line-height:40px;
+    margin-bottom:10px;
+}
+form .reason .must,form .contact .must,form .phone .must{
+    color:#a60400;
+}
+form .reason .words,form .contact .words,form .contact .words{
+    margin-left:6px;
+}
+form .reason span,form .reason select{
+    float:left;
+    height:40px;
+}
+form .reason span{
+    line-height:40px;
+}
+form .reason select{
+    height:38px;
+    padding-left:20px;
+    background:url(../../image/icon/down.png) 225px center no-repeat;
+    background-size:14px 14px;
+    cursor:pointer;
+}
+form .reason select{
+    width:260px;
+    border:1px solid #e3e3e3;
+    margin-left:25px;
+}
+.reason .icon{
+    width:40px;
+    background:url(../../image/icon/rightColC.png) center center no-repeat;
+    background-size:14px 14px;
+}
+.reason a{
+    float:left;
+    color:#1c9eff;
+}
+.despration{
+    height:100px;
+}
+.despration span{
+    margin-left:12px;
+    margin-right:26px;
+}
+.photo{
+    margin-top:10px;
+    height:auto;
+    padding-left:76px;
+}
+.photo div{
+    float:left;
+}
+.photo .img{
+    float:left;
+    width:102px;
+    height:102px;
+    box-sizing: border-box;
+    padding:5px;
+    border:1px solid #e3e3e3;
+    margin:0 5px;
+    display:none;
+    overflow:hidden;
+    margin-bottom: 10px;
+
+}
+.photo .sixth{
+    margin-left:217px;
+}
+.photo .img img{
+    width:100%;
+}
+.photo .words{
+    margin-left:12px;
+    margin-right:26px;
+    height:42px;
+    line-height:42px;
+}
+.photo .icon{
+    width:116px;
+    height:100px;
+    border:1px solid #e3e3e3;
+    background:url(../../image/icon/plusCol.png) center center no-repeat;
+    background-size:50px 50px;
+    cursor:pointer;
+}
+.despration span,.despration textarea{
+    float:left;
+}
+.despration textarea{
+    width:260px;
+    height:98px;
+    border:1px solid #e3e3e3;
+    resize: none;
+}
+.order .tips{
+    height:40px;
+    line-height:40px;
+    color:#a60400;
+    padding-left:170px;
+}
+.contact span,.phone span,.contact input,.phone input{
+    float:left;
+}
+.contact span,.phone span{
+    height:40px;
+}
+.contact{
+    margin-bottom:10px;
+}
+.contact .words,.phone .words{
+    margin-left:6px;
+}
+.contact .words{
+    margin-right:40px;
+}
+.phone .words{
+    margin-right:26px;
+}
+.contact input,.phone input{
+    width:260px;
+    height:38px;
+    border:1px solid #e3e3e3;
+    padding-left:20px;
+}
+.button{
+    width:148px;
+    height:42px;
+    text-align:center;
+    color:white;
+    background-color: #a60400;
+    line-height:42px;
+    border-width:0;
+    cursor:pointer;
+    margin-left:156px;
+    margin-top:50px;
+}
+.file{
+    width:0;
+    height:0;
+    opacity:0;
+}

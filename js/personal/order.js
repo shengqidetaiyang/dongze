@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-16 18:33:57
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-17 16:55:12
+* @Last Modified time: 2017-03-18 15:16:29
 */
 
 $(document).ready(function(){
@@ -23,4 +23,7 @@ $(document).ready(function(){
         $(".orderBox").eq(i).find("li").eq(len).find(".fifth").addClass('borderNone');
         $(".orderBox").eq(i).find("li").eq(len).find(".sixth").addClass('borderNone');
     }
+    $(".success .down").on("click",function(){
+        window.location.href = "../../html/personal/delivery.html";
+    })
 });

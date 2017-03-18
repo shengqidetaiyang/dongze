@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-03-17 16:03:47
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-03-17 18:19:25
+* @Last Modified time: 2017-03-18 10:59:47
 */
 .infor .first a{
     color:#1c9eff;
@@ -45,4 +45,68 @@
 .forth .inner .plus{
     background:url(../../image/icon/plus.png) center center no-repeat;
     background-size:12px 12px;    
+}
+.sum{
+    width:366px;
+    height:144px;
+    float:right;
+    padding-top:5px;
+    padding-left:20px;
+    padding-bottom:5px;
+    border:1px solid #c8cac9;
+}
+.sum .words{
+    padding-left:5px;
+}
+.orderList {
+    margin-bottom:9px;
+}
+.sum .first{
+    height:46px;
+    line-height:46px;
+}
+.sum .first .selectBox{
+    margin-top:17px;
+}
+.sum .second{
+    width:100%;
+    height:25px;
+    line-height:25px;
+    margin-bottom:20px;
+}
+.sum .third{
+    height:50px;
+    line-height:50px;
+    width:100%;
+}
+.sum .third .word{
+    margin-left:120px;
+}
+.sum .third .num{
+    font-size:30px;
+    color:#ac0200;
+    font-weight: bold;
+}
+.sum .second .selectBox{
+    margin-top:6px;
+}
+.sum .second .code{
+    width:150px;
+    height:23px;
+    border:1px solid #c8cac9;
+    margin-left:10px;
+}
+.sum .select{
+    opacity:0;
+}
+.sum .submit{
+    float:right;
+    width:150px;
+    height:76px;
+    background-color:#ac0200;
+    color:white;
+    line-height:76px;
+    text-align:center;
+    margin-top:10px;
+    cursor:pointer;
 }

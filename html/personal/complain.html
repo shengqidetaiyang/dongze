@@ -7,8 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../../css/comm/base.css" />
         <link rel="stylesheet" type="text/css" href="../../css/personal/personInfo.css" />
         <link rel="stylesheet" type="text/css" href="../../css/personal/order.css" />
-        <link rel="stylesheet" type="text/css" href="../../css/personal/orderDetail.css" />
-        <link rel="stylesheet" type="text/css" href="../../css/personal/orderSubmit.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/personal/complain.css" />
     <body>
         <div class = "commHeader">
             <div class = "fixedTop">
@@ -63,116 +62,55 @@
             </div>
             <div class="order left clearfix">
                 <p class="topic">
-                  <span class = "word">我的订单</span>
-                  <span class = "icon"></span>
-                  <span class = "word">订单详情</span>
+                    <span class = "word">我的订单</span>
+                    <span class = "icon"></span>
+                    <span class = "word">订单详情</span>
+                    <span class = "icon"></span>
+                    <span class = "word">售后服务</span>
                 </p>
-                <div class="infor">
-                  <p class = "first">
-                    <span>显示收货地址</span>
-                    <a href = "javascript:void(0);">管理收货地址</a>
+                <form action="" method="get">
+                  <p class = "reason">
+                      <span class = "must">*</span>
+                      <span class = "words">退款原因</span>
+                      <select>
+                          <option value ="volvo">不喜欢</option>
+                          <option value ="saab">买错了</option>
+                          <option value="opel">大了</option>
+                          <option value="audi">小了</option>
+                      </select>
+                      <span class = "icon"></span>
+                      <a href="javascript:void(0);">查看售后政策</a>
                   </p>
-                  <p class = "second">
-                    <span>收 件 人：罗拉</span>
+                  <p class = "despration">
+                      <span>原因描述</span>
+                      <textarea name="reason" id="" cols="30" rows="10" class = "reason"></textarea>
                   </p>
-                  <p class = "third">
-                    <span>联系方式：13569965485</span>
+                  <div class = "photo clearfix">
+                      <div class = "words">上传照片</div>
+                      <div class = "icon"></div>
+                      <div class = "img"><img src="" alt="" /></div>
+                      <div class = "img"><img src="" alt="" /></div>
+                      <div class = "img"><img src="" alt="" /></div>
+                      <div class = "img"><img src="" alt="" /></div>
+                      <div class = "img"><img src="" alt="" /></div>
+                      <div class = "img sixth"><img src="" alt="" /></div>
+                      <div class = "img"><img src="" alt="" /></div>
+                      <div class = "img"><img src="" alt="" /></div>
+                  </div>
+                  <p class = "tips">上传图片可以更好帮助我们为您处理退换货（最多8张）</p>
+                  <p class = "contact">
+                      <span class = "must">*</span>
+                      <span class = "words">联系人</span>
+                      <input type="text" name="people" / class = "people">
                   </p>
-                  <p class = "forth">收货地址：广州市天河区珠江新城华夏路49号津滨腾越大厦南塔1008室</p>
-                </div>
-                <div class="top">
-                  <span class = "first">产品信息</span>
-                  <span class = "second">颜色分类</span>
-                  <span class = "third">单价（元）</span>
-                  <span class = "forth">数量</span>
-                  <span class = "fifth">小计（元）</span>
-                </div>
-                <div class="orderList">
-                  <ul class = "orderBox">
-                    <li class = "sign">
-                      <div class = "first">
-                        <div class="img">
-                          <img src="../../image/proList.jpg" alt="" />
-                        </div>
-                        <p>汽车音响喇叭改装套装6.5寸德车载同轴高中低音炮箱寸德车载同轴高中低音炮箱</p>
-                      </div>
-                      <div class = "second">
-                        <p>前门：2个小高前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）</p>
-                      </div>
-                      <div class = "third">￥2990.01</div>
-                      <div class = "forth">
-                          <div class = "inner">
-                              <span class = "minus"></span>
-                              <span class = "num">1</span>
-                              <span class = "plus"></span>
-                          </div>
-                      </div>
-                      <div class = "fifth">￥2990.00</div>
-                    </li>
-                    <li class = "sign">
-                      <div class = "first">
-                        <div class="img">
-                          <img src="../../image/proList.jpg" alt="" />
-                        </div>
-                        <p>汽车音响喇叭改装套装6.5寸德车载同轴高中低音炮箱寸德车载同轴高中低音炮箱</p>
-                      </div>
-                      <div class = "second">
-                        <p>前门：2个小高前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）</p>
-                      </div>
-                      <div class = "third">￥2990.00</div>
-                      <div class = "forth">
-                          <div class = "inner">
-                              <span class = "minus"></span>
-                              <span class = "num">1</span>
-                              <span class = "plus"></span>
-                          </div>
-                      </div>
-                      <div class = "fifth">￥2990.00</div>
-                    </li>
-                    <li class = "sign">
-                      <div class = "first">
-                        <div class="img">
-                          <img src="../../image/proList.jpg" alt="" />
-                        </div>
-                        <p>汽车音响喇叭改装套装6.5寸德车载同轴高中低音炮箱寸德车载同轴高中低音炮箱</p>
-                      </div>
-                      <div class = "second">
-                        <p>前门：2个小高前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）</p>
-                      </div>
-                      <div class = "third">￥2990.00</div>
-                      <div class = "forth">
-                          <div class = "inner">
-                              <span class = "minus"></span>
-                              <span class = "num">1</span>
-                              <span class = "plus"></span>
-                          </div>
-                      </div>
-                      <div class = "fifth">￥2990.00</div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="sum noneSelect">
-                    <p class="first">
-                          <span class = "selectBox">
-                              <span class = "inner"></span>
-                              <input type="radio" name="integral" / class = "select">
-                          </span>
-                          <span class = "words ">使用积分抵扣</span>
-                    </p>
-                    <p class="second">
-                          <span class = "selectBox">
-                              <span class = "inner"></span>
-                              <input type="radio" name="discount" / class = "select">
-                          </span>
-                          <span class = "words ">使用优惠码</span>
-                          <input type="text" / class = "code" readonly="true">
-                    </p>
-                    <p class="third">
-                        <span class="word">应付总额</span>
-                        <span class="num">￥59800</span>
-                    </p>
-                    <span class = "submit">提交订单</span>
-                </div>
+                  <p class = "phone">
+                      <span class = "must">*</span>
+                      <span class = "words">联系方式</span>
+                      <input type="text" name="phone" / class = "phoneNum">
+                  </p>
+                  <input type="submit" value="提交" / class = "button">
+                  <input type="file" name="file" / class = "file" accept="image/*" multiple=“multiple”>  
+                </form>
             </div>
         </div>
         <div class="footer">
@@ -248,6 +186,6 @@
         </div>  
     <script type="text/javascript" src="../../js/comm/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="../../js/comm/commB.js"></script>
-    <script type="text/javascript" src="../../js/personal/orderSubmit.js"></script> 
+    <script type="text/javascript" src="../../js/personal/complain.js"></script> 
     </body>
 </html>

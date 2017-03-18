@@ -7,8 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../../css/comm/base.css" />
         <link rel="stylesheet" type="text/css" href="../../css/personal/personInfo.css" />
         <link rel="stylesheet" type="text/css" href="../../css/personal/order.css" />
-        <link rel="stylesheet" type="text/css" href="../../css/personal/orderDetail.css" />
-        <link rel="stylesheet" type="text/css" href="../../css/personal/orderSubmit.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/personal/delivery.css" />
     <body>
         <div class = "commHeader">
             <div class = "fixedTop">
@@ -63,116 +62,88 @@
             </div>
             <div class="order left clearfix">
                 <p class="topic">
-                  <span class = "word">我的订单</span>
-                  <span class = "icon"></span>
-                  <span class = "word">订单详情</span>
+                    <span class = "word">我的订单</span>
+                    <span class = "icon"></span>
+                    <span class = "word">订单详情</span>
+                    <span class = "icon"></span>
+                    <span class = "word">物流信息</span>
                 </p>
-                <div class="infor">
-                  <p class = "first">
-                    <span>显示收货地址</span>
-                    <a href = "javascript:void(0);">管理收货地址</a>
-                  </p>
-                  <p class = "second">
-                    <span>收 件 人：罗拉</span>
-                  </p>
-                  <p class = "third">
-                    <span>联系方式：13569965485</span>
-                  </p>
-                  <p class = "forth">收货地址：广州市天河区珠江新城华夏路49号津滨腾越大厦南塔1008室</p>
-                </div>
-                <div class="top">
-                  <span class = "first">产品信息</span>
-                  <span class = "second">颜色分类</span>
-                  <span class = "third">单价（元）</span>
-                  <span class = "forth">数量</span>
-                  <span class = "fifth">小计（元）</span>
-                </div>
-                <div class="orderList">
-                  <ul class = "orderBox">
-                    <li class = "sign">
-                      <div class = "first">
-                        <div class="img">
-                          <img src="../../image/proList.jpg" alt="" />
+                <div class="state">
+                    <div class="stateList clearfix send">
+                        <div class="left">
+                            <div class="icon"></div>
+                            <p>已发货</p>                          
                         </div>
-                        <p>汽车音响喇叭改装套装6.5寸德车载同轴高中低音炮箱寸德车载同轴高中低音炮箱</p>
-                      </div>
-                      <div class = "second">
-                        <p>前门：2个小高前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）</p>
-                      </div>
-                      <div class = "third">￥2990.01</div>
-                      <div class = "forth">
-                          <div class = "inner">
-                              <span class = "minus"></span>
-                              <span class = "num">1</span>
-                              <span class = "plus"></span>
-                          </div>
-                      </div>
-                      <div class = "fifth">￥2990.00</div>
-                    </li>
-                    <li class = "sign">
-                      <div class = "first">
-                        <div class="img">
-                          <img src="../../image/proList.jpg" alt="" />
+                        <div class="right"></div>
+                    </div>
+                    <div class="stateList clearfix transport">
+                        <div class="left">
+                            <div class="icon"></div>
+                            <p>运输</p>                          
                         </div>
-                        <p>汽车音响喇叭改装套装6.5寸德车载同轴高中低音炮箱寸德车载同轴高中低音炮箱</p>
-                      </div>
-                      <div class = "second">
-                        <p>前门：2个小高前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）</p>
-                      </div>
-                      <div class = "third">￥2990.00</div>
-                      <div class = "forth">
-                          <div class = "inner">
-                              <span class = "minus"></span>
-                              <span class = "num">1</span>
-                              <span class = "plus"></span>
-                          </div>
-                      </div>
-                      <div class = "fifth">￥2990.00</div>
-                    </li>
-                    <li class = "sign">
-                      <div class = "first">
-                        <div class="img">
-                          <img src="../../image/proList.jpg" alt="" />
+                        <div class="right"></div>
+                    </div>
+                    <div class="stateList clearfix sending">
+                        <div class="left">
+                            <div class="icon"></div>
+                            <p>派送</p>                          
                         </div>
-                        <p>汽车音响喇叭改装套装6.5寸德车载同轴高中低音炮箱寸德车载同轴高中低音炮箱</p>
-                      </div>
-                      <div class = "second">
-                        <p>前门：2个小高前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）前门：2个小高音，2个重低音（不含后门）</p>
-                      </div>
-                      <div class = "third">￥2990.00</div>
-                      <div class = "forth">
-                          <div class = "inner">
-                              <span class = "minus"></span>
-                              <span class = "num">1</span>
-                              <span class = "plus"></span>
-                          </div>
-                      </div>
-                      <div class = "fifth">￥2990.00</div>
+                        <div class="right"></div>
+                    </div>
+                    <div class="stateList clearfix send finish">
+                        <div class="left">
+                            <div class="icon"></div>
+                            <p>签收</p>                          
+                        </div>
+                    </div>
+                </div>
+                <p class = "tipsTop">商家正通知 中通快递 揽件</p>
+                <ul class = "processList">
+                    <li class = "processLists">
+                        <p class = "pre">
+                            <span class = "date">2017-02-15</span>
+                            <span class = "day">周三 </span>
+                            <span class = "time">11:24:27</span>
+                            <span class = "words">您的订单开始处理</span>
+                        </p>
+                        <p class = "then">
+                            <span class = "time">11:24:27</span>
+                            <span class = "words">您的订单待配货</span>
+                        </p>
+                        <span class = "dot"></span>
                     </li>
-                  </ul>
-                </div>
-                <div class="sum noneSelect">
-                    <p class="first">
-                          <span class = "selectBox">
-                              <span class = "inner"></span>
-                              <input type="radio" name="integral" / class = "select">
-                          </span>
-                          <span class = "words ">使用积分抵扣</span>
-                    </p>
-                    <p class="second">
-                          <span class = "selectBox">
-                              <span class = "inner"></span>
-                              <input type="radio" name="discount" / class = "select">
-                          </span>
-                          <span class = "words ">使用优惠码</span>
-                          <input type="text" / class = "code" readonly="true">
-                    </p>
-                    <p class="third">
-                        <span class="word">应付总额</span>
-                        <span class="num">￥59800</span>
-                    </p>
-                    <span class = "submit">提交订单</span>
-                </div>
+                    <li class = "processLists">
+                        <p class = "pre">
+                            <span class = "date">2017-02-15</span>
+                            <span class = "day">周三 </span>
+                            <span class = "time">11:24:27</span>
+                            <span class = "words">您的订单开始处理</span>
+                        </p>
+                        <p class = "then">
+                            <span class = "time">11:24:27</span>
+                            <span class = "words">您的订单待配货</span>
+                        </p>
+                        <span class = "dot"></span>
+                    </li>
+                    <li class = "processLists">
+                        <p class = "pre">
+                            <span class = "date">2017-02-15</span>
+                            <span class = "day">周三 </span>
+                            <span class = "time">11:24:27</span>
+                            <span class = "words">您的订单开始处理</span>
+                        </p>
+                        <p class = "then">
+                            <span class = "time">11:24:27</span>
+                            <span class = "words">您的订单待配货</span>
+                        </p>
+                        <span class = "dot"></span>
+                    </li>
+                </ul>
+                <p class = "bottom">
+                    <span class="num">运单号码：1234567</span>
+                    <span class="company">物流公司：中通快递</span>
+                    <span class="phone">客服电话：951111</span>
+                </p>
             </div>
         </div>
         <div class="footer">
@@ -248,6 +219,6 @@
         </div>  
     <script type="text/javascript" src="../../js/comm/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="../../js/comm/commB.js"></script>
-    <script type="text/javascript" src="../../js/personal/orderSubmit.js"></script> 
+    <script type="text/javascript" src="../../js/personal/delivery.js"></script> 
     </body>
 </html>
