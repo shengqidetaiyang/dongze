@@ -1,0 +1,30 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-20 11:22:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-20 11:37:02
+*/
+.contain .order{
+    width:883px;
+    height:485px;
+    border:1px solid #e3e3e3;
+}
+.contain .order img{
+    width:34px;
+    height:48px;
+    margin:0 auto;
+    margin-top:150px;
+    margin-bottom:15px;
+}
+.contain .order p{
+    width:100%;
+    height:26px;
+    line-height:26px; 
+    text-align:center;   
+}
+.contain .order .first{
+    font-size:16px;
+}
+.contain .order .second a{
+    color:#1bafe0;
+}

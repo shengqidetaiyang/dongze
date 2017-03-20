@@ -1,0 +1,75 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-20 17:22:51
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-20 18:52:26
+*/
+.order .top span{
+    color:#050505;
+}
+.order .top .first{
+    width:400px;
+    text-indent: 36px;
+    text-align: left;
+}
+.order .top .second{
+    width:215px;
+    text-align: left;
+}
+.order .top .third{
+    width:188px;
+    text-align: left;
+}
+.order .top .forth{
+    width:90px;
+}
+.commentList li{
+    border-bottom:1px solid #e3e3e3;
+    position:relative;
+}
+.commentList li div{
+    float:left;
+}
+.commentList li .first{
+    width:375px;
+    padding:18px 20px 18px 5px;
+}
+.commentList li .first p{
+    line-height:24px;
+    text-indent:36px;
+}
+.commentList li .second{
+    width:215px;
+    padding-top:25px;
+}
+.commentList li .second p{
+    line-height:24px;
+    padding-right:20px;
+}
+.commentList li .third{
+    padding:18px 0;
+    width:188px;
+}
+.commentList li .third p{
+    line-height:24px;  
+    padding-right:20px;  
+}
+.commentList li .forth{
+    width:90px;
+}
+.commentList li .forth p{
+    position:absolute;
+    height:24px;
+    text-align: center;
+    width:90px;
+    right:61px;
+    top:50%;
+    margin-top:-12px;
+    cursor:pointer;
+}
+.contain .order .top{
+    margin-bottom:0;
+}
+.commentList li .third .price .col{
+    color:#a60400;
+}
