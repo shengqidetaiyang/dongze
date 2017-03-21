@@ -1,0 +1,76 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-21 10:49:33
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-21 11:59:19
+*/
+.contain .order .top{
+    width:687px;
+    padding-top:13px;
+    padding-left:103px;
+    padding-bottom:8px;
+    height:auto;
+}
+.contain .order .top div{
+    width:206px;
+}
+.contain .order .top div .up{
+    height:26px;
+    line-height:26px;
+}
+.contain .order .top div .down{
+    height:48px;
+    line-height:48px;
+}
+.contain .order .top div .down span{
+    float:left;
+}
+.contain .order .top div .down .icon{
+    width:46px;
+    height:48px;
+    background:url(../../image/icon/invite.png) center center no-repeat;
+    background-size:30px 33px;
+}
+.contain .order .top div .down .num{
+    font-size:22px;
+    font-weight:bold;
+    color:#a60400;
+}
+.contain .order .top .friend .down .num{
+    color:#288c29;
+}
+.contain .order .top .me,.contain .order .top .friend,.order .top .code{
+    float:left;
+}
+.contain .order .friend{
+    margin-right:38px;
+}
+.contain .order .top .code .img{
+    width:82px;
+}
+.contain .order .top .code .word{
+    width:110px;
+    padding-top:15px;
+}
+.contain .order .top .code .word p{
+    line-height:22px;
+    padding-left:5px;
+}
+.contain .order .top>img{
+    width:100%;
+}
+.bigImg{
+    width:790px;
+}
+.contain .order .detail .topic{
+    height:28px;
+    line-height:28px;
+    margin-top:16px;
+    font-size:14px;
+    margin-bottom:10px;
+}
+.contain .order .detail .list{
+    line-height:22px;
+    color:#979797;
+    text-indent:3px;
+}

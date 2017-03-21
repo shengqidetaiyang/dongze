@@ -1,0 +1,142 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-21 13:41:49
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-21 15:13:44
+*/
+.contain .order .top{
+    width:780px;
+    height:auto;
+    padding-top:8px;
+    padding-left:20px;
+    margin-bottom:30px;
+}
+.contain .order .top>div{
+    float:left;
+}
+.contain .order .top .first,.contain .order .top .second,.contain .order .top .third{
+    width:160px;
+}
+.contain .order .top .first .word,.contain .order .top .second .word,.contain .order .top .third .word{
+    line-height:42px;
+}
+.contain .order .top .first .num,.contain .order .top .second .num,.contain .order .top .third .num{
+    line-height:29px;
+    color:#288c29;
+    font-size:22px;
+    font-weight:bold;
+}
+.contain .order .top .forth{
+    width:154px;
+    margin-left:50px;
+}
+.contain .order .top .forth .up{
+    width:100%;
+    height:38px;
+    color:white;
+    line-height:38px;
+    background-color:#cccccc;
+    text-align: center;
+    cursor:pointer;
+}
+.contain .order .top .forth .down{
+    line-height:28px;
+    color:#a5a5a5;
+    text-align: center;
+    margin-bottom:10px;
+}
+.contain .order .classfiy{
+    width:780px;
+    height:42px;
+    line-height:42px;
+    text-align: center;
+    padding-left:20px;
+    border:1px solid #e3e3e3;
+}
+.contain .order .classfiy span{
+    float:left;
+}
+.contain .order .classfiy .first{
+    width:300px;
+}
+.contain .order .classfiy .second{
+    width:100px;
+}
+.contain .order .classfiy .third{
+    width:212px;
+    margin-right:20px;
+}
+.contain .order .classfiy .forth{
+    width:148px;
+}
+.contain .order .integrate{
+    width:800px;
+}
+.contain .order .integrate li{
+    width:790px;
+    border:1px solid #e3e3e3;
+    border-top:0;
+    padding-left:10px;
+}
+.contain .order .integrate li>div{
+    float:left;
+}
+.contain .order .integrate li .first{
+    width:300px;
+}
+.contain .order .integrate li .second{
+    width:100px;    
+}
+.contain .order .integrate li .third{
+    width:212px;
+    margin-right:20px;    
+}
+.contain .order .integrate li .forth{
+    width:148px;    
+}
+.contain .order .integrate li .first .up{
+    width:80px;
+    height:80px;
+    margin-top:12px;
+    margin-bottom:12px;
+    border:1px solid #e3e3e3;
+    overflow:hidden;
+    position: relative;
+}
+.contain .order .integrate li .first .down{
+    width:210px;
+    line-height:20px;
+    padding-top:28px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.contain .order .integrate li .first .down p{
+    padding-left:8px;
+}
+.contain .order .integrate li .first .up img{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+}
+.contain .order .integrate li .second,.contain .order .integrate li .third,.contain .order .integrate li .forth{
+    line-height:107px;
+    text-align: center;
+}
+.contain .order .integrate li .second{
+    font-size:16px;
+    font-weight:bold;
+    color:#a60400;
+}
+.contain .order .integrate li .third,.contain .order .integrate li .forth{
+    color:#666;
+}
+.contain .order .integrate .minus .second{
+    color:#288c29;
+}

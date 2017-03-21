@@ -1,0 +1,230 @@
+/* 
+* @Author: Marte
+* @Date:   2017-03-21 15:30:10
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-03-21 18:02:43
+*/
+.contain .order .top{
+    width:900px;
+}
+.contain .order .top>div{
+    float:left;
+    text-align:center;
+    line-height:40px;
+}
+.contain .order .top .first{
+    width:110px;
+    height:40px;
+}
+.contain .order .top .second{
+    width:304px;
+}
+.contain .order .top .third{
+    width:146px;
+}
+.contain .order .top .forth{
+    width:153px;
+}
+.contain .order .top .fifth{
+    width:50px;
+}
+.contain .order .top .sixth{
+    width:110px;
+}
+.contain .order .top .first span{
+    float:left;
+}
+.contain .order .top .first .wrapCheckbox{
+    width:16px;
+    height:16px;
+    border:1px solid #e3e3e3;
+    margin-top:11px;
+    margin-left:18px;
+    margin-right:18px;
+    cursor:pointer;
+}
+.contain .order .top .first input{
+    opacity: 0;
+}
+.contain .order .top .first .active{
+    background:url(../../image/icon/selected.png) center center no-repeat;
+    background-size:16px 16px;
+}
+.contain .order .cartList{
+    width:900px;
+}
+.contain .order .cartList li{
+    width:900px;
+    height:106px;
+    border:1px solid #e3e3e3;
+    margin-bottom:10px;
+}
+.contain .order .cartList li>div{
+    height:106px;
+    float:left;
+}
+.contain .order .cartList li .first{
+    width:110px;
+}
+.contain .order .cartList li .second{
+    width:304px;
+}
+.contain .order .cartList li .third{
+    width:146px;
+}
+.contain .order .cartList li .forth{
+    width:153px;
+}
+.contain .order .cartList li .fifth{
+    width:50px;
+}
+.contain .order .cartList li .sixth{
+    width:110px;
+}
+.contain .order .cartList li .first .wrapCheckbox{
+    float:left;
+    width:16px;
+    height:16px;
+    border:1px solid #e3e3e3;
+    margin-top:44px;
+    margin-left:18px;
+    margin-right:18px;
+    cursor:pointer;
+
+}
+.contain .order .cartList .active .first .wrapCheckbox{
+    background:url(../../image/icon/selected.png) center center no-repeat;
+    background-size:16px 16px;    
+}
+.contain .order .cartList li .second .img{
+    width:80px;
+    height:80px;
+    margin-top:10px;
+    border:1px solid #e3e3e3;
+    position: relative;
+}
+.contain .order .cartList li .second .img img{
+    position:absolute;
+    width:100%;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.contain .order .cartList li .second .words{
+    width:180px;
+    padding-top:30px;
+}
+.contain .order .cartList li .second .words p{
+    line-height:24px;
+    padding-left:5px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.contain .order .cartList li .third p{
+    padding-top:30px;
+    line-height:24px;
+    text-align: left;
+    padding-left:0;
+}
+.contain .order .cartList li .forth,.contain .order .cartList li .fifth,.contain .order .cartList li .sixth{
+    line-height:106px;
+    text-align: center;
+}
+.contain .order .bottom{
+    height:140px;
+    width:900px;
+    border:1px solid #e3e3e3;
+}
+.contain .order .bottom>div{
+    height:140px;
+}
+.contain .order .bottom .left{
+    width:152px;
+}
+.contain .order .bottom .right{
+    width:204px;
+}
+.contain .order .bottom span{
+    float:left;
+}
+.contain .order .bottom .wrapCheckbox{
+    width:16px;
+    height:16px;
+    border:1px solid #e3e3e3;
+    margin-top:44px;
+    margin-left:18px;
+    margin-right:18px;
+    cursor:pointer;    
+}
+.contain .order .bottom .active{
+    background:url(../../image/icon/selected.png) center center no-repeat;
+    background-size:16px 16px;      
+}
+.contain .order .bottom .left .words{
+    margin-top:42px;
+}
+.contain .order .bottom .right>div{
+    float:left;
+}
+.contain .order .bottom .right .name{
+    width:92px;
+    height:122px;
+    padding:10px 0;
+}
+.contain .order .bottom .right .name p{
+    line-height:31px;
+    height:31px;
+    width:100%;
+    padding:0;
+    text-align:right;
+}
+.contain .order .bottom .right .num{
+    width:112px;
+    height:122px;
+    padding:10px 0;
+}
+.contain .order .bottom .right .num p{
+    line-height:31px;
+    height:31px;
+    width:100%;
+    padding:0;
+    text-align:center;
+}
+.contain .order .submit{
+    width:432px;
+    height:72px;
+    border:1px solid #e3e3e3;
+    border-top:0;
+    margin-left:468px;
+}
+.contain .order .submit span{
+    float:left;
+}
+.contain .order .submit .first{
+    width:100px;
+    height:72px;
+    line-height:72px;
+    text-align:right;
+}
+.contain .order .submit .second{
+    width:180px;
+    height:72px;
+    line-height:72px;
+    font-size:30px;
+    font-weight: bold;
+    color:#a60400;
+}
+.contain .order .submit .button{
+    float:right;
+    width:152px;
+    background-color: #a60400;
+    height:72px;
+    border-width:0;
+    color:white;
+    cursor:pointer;
+}
